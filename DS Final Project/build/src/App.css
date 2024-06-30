@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+@font-face {
+  font-family: "Cheltenham";
+  src: url(./assets/fonts/itc-cheltenham-std-cufonfonts-webfont/CheltenhamStdBoldCond.woff)
+}
+
+@font-face {
+  font-family: "Franklin";
+  src: url(./assets/fonts/Libre_Franklin/static/LibreFranklin-Light.ttf);
+}
+
+@font-face {
+  font-family: "Wordle";
+  src: url(./assets/fonts/helvetica-neue-5/HelveticaNeueBold.otf);
+}
+h1 {
+ font-family: "Cheltenham"; 
+ font-size: calc(2vh + 2vw)
+}
+
+p {
+  font-family: "Franklin";
+}
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
